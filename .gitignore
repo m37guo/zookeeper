@@ -53,6 +53,7 @@ tmp/**/*
 *.patch
 *.swp
 generated
+datazookeeper/
 
 # C
 tags

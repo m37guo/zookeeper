@@ -27,7 +27,7 @@ import java.util.List;
 import java.util.TreeMap;
 
 /**
- *
+ * 实际的执行序列化的类，底层调用的还是java io {@link DataOutput}的序列化
  */
 public class BinaryOutputArchive implements OutputArchive {
     private ByteBuffer bb = ByteBuffer.allocate(1024);
